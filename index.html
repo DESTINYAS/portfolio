@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6bb306e76a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="download.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm  <span> Destiny A.O </span> <br>    A backend Web Developer from Nigeria. 
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src=IMG_20190517_141346_4.jpg >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    </p>
+                     <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div><br>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>HTML <br>CSS <br>Boostrap <br>Javascript <br>Nodejs <br>Express.js<br>MySql <br>Mongodb <br>Mongodb compass <br>Mongoose <br>Postgres <br>Sequelizer<br>TypeScript </li>   
+                            <li><span>Project Management</span><br>MS PROJECT <br>PRIMAVERA</li>
+                        <ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>Backend developer at MiddleTrust PLC</li>
+                            <li><span>2019-2020</span><br>Backend developer at Inward Technical Enterprises ltd</li>
+                        <ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022</span><br>Pandas and Numpy Fundamentals Dataquest</li>
+                                    <li><span>2022</span><br>•	Python Functions and Jupyter Notebook Dataquest</li>
+                                    <li><span>2022</span><br>Tools for Data Science Coursera</li>
+                                    <li><span>2022</span><br>Data Science Methodology Coursera</li>
+                                    <li><span>2022</span><br>Pyton for Data Science Dataquest</li>
+                                    <li><span>2019</span><br>M.ENG Production Engineering Uniben</li>
+                                    <li><span>2015</span><br>B.ENG Mechanical Engineering Delsu</li>
+                                    
+                                </ul>
+                                
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------Portfolio----------------------->
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="newsletter.JPG">
+                    <div class="layer">
+                        <h3>Stopwatch app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Download if from play store</p>
+                        <a href="https://destiny-a-o-signup.herokuapp.com/"><i class="fas fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="weather.JPG">
+                    <div class="layer">
+                        <h3>Stopwatch app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Download if from play store</p>
+                        <a href="https://city-weather-condition.herokuapp.com/"><i class="fas fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="todo.JPG">
+                    <div class="layer">
+                        <h3>Stopwatch app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Download if from play store</p>
+                        <a href="https://todolistbydestiny.herokuapp.com/"><i class="fas fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="stopwatch.JPG">
+                    <div class="layer">
+                        <h3>Stopwatch app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Download if from play store</p>
+                        <a href="#"><i class="fas fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="dice.JPG">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Download it from play store</p>
+                        <a href="#"><i class="fas fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="drumkit.JPG">
+                    <div class="layer">
+                        <h3>MarioClub</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Download if from play store</p>
+                        <a href="#"><i class="fas fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="marioclub.JPG">
+                    <div class="layer">
+                        <h3>Stopwatch app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Download if from play store</p>
+                        <a href="#"><i class="fas fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            <a id="seemore" href="https://github.com/DESTINYAS" class="btn">See more</a>     
+        </div>
+    </div> 
+    <!------------------------------- Contact----------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-solid fa-envelope"></i></i>destiny.ochonogor@gmail.com</p>
+                    <p><i class="fas fa-solid fa-phone"></i>08133049216</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/DESTINYAS"><i class="fab fa-brands fa-github"></i></i></a>
+                        <a href="https://web.facebook.com/profile.php?id=100003703162590"><i class="fab fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Ashley96009021"><i class="fab fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/destiny.ochonogor/"><i class="fab fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bd3jfE%2F8TTFOra%2FmayDQSHA%3D%3D"><i class="fab fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="download.jpg" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fas fa-solid fa-copyright"></i> Destiny Portfolio. Made with <i id="love" class="fas fa-solid fa-heart"></i> by Destiny A.O </p>
+        </div>
+    </div>
+ <script src="index.js"></script>   
+</body>
+</html>
